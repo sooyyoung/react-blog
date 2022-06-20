@@ -5,13 +5,20 @@ import Twitter from '../../assets/Twitter.svg';
 import Instagram from '../../assets/Instagram.svg';
 import Github from '../../assets/Github.svg';
 
-export default function About(){
+function AboutMe(){
     return (
-        <div className="about">
+        <>
             <h2>About Me</h2>
             <img src="../../../assets/profile.jpg" alt="" className="user-profile" />
             <p className="user-name">Chilli</p>
             <p className="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </>
+    )
+}
+
+function Categories(){
+    return (
+        <>
             <h3>Categories</h3>
             <ul className="categories">
                 <li><a href="#">Life</a></li>
@@ -22,6 +29,13 @@ export default function About(){
                 <li><a href="#">Develop</a></li>
                 <li><a href="#">Music</a></li>
             </ul>
+        </>
+    )
+}
+
+function Follow(){
+    return (
+        <>
             <h3>Follow</h3>
             <ul className="sns">
                 <li>
@@ -45,6 +59,16 @@ export default function About(){
                     </a>
                 </li>
             </ul>
+        </>
+    )
+}
+
+export default function About(){
+    return (
+        <div className="about">
+            <AboutMe />
+            <Categories />
+            <Follow />
         </div>
     )
 }
