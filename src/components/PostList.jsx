@@ -1,4 +1,4 @@
-import './postList.css';
+import './style/postList.css';
 
 function PostCard(props){
     return(

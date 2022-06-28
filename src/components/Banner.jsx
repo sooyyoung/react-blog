@@ -1,4 +1,4 @@
-import './banner.css'
+import './style/banner.css'
 
 export default function Banner(){
     return (

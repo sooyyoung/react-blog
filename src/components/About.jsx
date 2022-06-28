@@ -1,15 +1,15 @@
-import './about.css'
+import './style/about.css'
 
-import Facebook from '../../assets/Facebook.svg';
-import Twitter from '../../assets/Twitter.svg';
-import Instagram from '../../assets/Instagram.svg';
-import Github from '../../assets/Github.svg';
+import Facebook from '../assets/Facebook.svg';
+import Twitter from '../assets/Twitter.svg';
+import Instagram from '../assets/Instagram.svg';
+import Github from '../assets/Github.svg';
 
 function AboutMe(){
     return (
         <>
             <h2>About Me</h2>
-            <img src="../../../assets/profile.jpg" alt="" className="user-profile" />
+            <img src="../../assets/profile.jpg" alt="" className="user-profile" />
             <p className="user-name">Chilli</p>
             <p className="user-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </>

@@ -1,9 +1,9 @@
-import './header.css';
-import '../../button.css';
+import './style/header.css';
+import '../button.css';
 
-import Logo from '../../assets/Logo.svg';
-import iconModifyWhite from '../../assets/icon-modify-white.svg';
-import iconLogout from '../../assets/icon-logout.svg';
+import Logo from '../assets/Logo.svg';
+import iconModifyWhite from '../assets/icon-modify-white.svg';
+import iconLogout from '../assets/icon-logout.svg';
 
 function Login(){
     return (

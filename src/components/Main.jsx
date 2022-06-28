@@ -1,6 +1,6 @@
-import About from '../../components/about/About'
-import PostList from '../postList/PostList'
-import './main.css'
+import About from './About'
+import PostList from './PostList'
+import './style/main.css'
 
 export default function Main(){
     return (
